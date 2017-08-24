@@ -10,7 +10,7 @@ const chalk = require('chalk');
 // const green = string => `\u001b[32m${string}\u001b[39m`;
 // const red = string => `\u001b[31m${string}\u001b[39m`;
 // console.log(`It is ${red('easier')} to use ${green('functions for')} ${green(bold('ANSI'))} codes!`);
-
+ 
 
 console.log(chalk.bgBlue.bold(` ★ ★ ★ ★ ★ ★ ★ `)+ chalk.bgRed.bold("                                  "));
 console.log(chalk.bgBlue.bold(`  ★ ★ ★ ★ ★ ★  `)+ chalk.bgWhite.bold("                                  "));
